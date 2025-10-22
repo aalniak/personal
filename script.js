@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const contentSections = {
     vision: document.getElementById('vision-content'),
     rtl: document.getElementById('rtl-content'),
-    mlai: document.getElementById('ml-ai-content'),
+    'ml-ai': document.getElementById('ml-ai-content'),
     others: document.getElementById('others-content')
   };
 
