@@ -44,7 +44,7 @@ class CustomNavbar extends HTMLElement {
         }
       </style>
       <nav>
-        <a href="/" class="logo">TechTonic</a>
+        <a href="/" class="logo">Arda Alnıak</a>
         <ul></ul>
 </nav>
     `;
