@@ -5,6 +5,22 @@
     justify-content: center;
     border: 1px solid rgba(255,255,255,0.1);
 }
+
+.skill-btn.active {
+  background-color: #3B82F6; /* tailwind primary */
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(59,130,246,0.18);
+  transform: translateY(-4px);
+  border-color: rgba(255,255,255,0.08);
+}
+.skill-btn .feather, .skill-btn svg {
+  transition: color 160ms ease, transform 160ms ease;
+}
+.skill-btn.active .feather, .skill-btn.active svg {
+  color: white !important;
+  transform: translateY(-1px);
+}
+
 .hovered-element {
     transition: all 0.3s ease;
 }
