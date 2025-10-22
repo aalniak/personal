@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => {
       const rawSkill = btn.dataset.skill;
       // map ml-ai to 'others' section because there is no dedicated ml-ai section
-      const key = rawSkill === 'ml-ai' ? 'others' : rawSkill;
+      //const key = rawSkill === 'ml-ai' ? 'others' : rawSkill;
       const section = contentSections[key];
 
       const isActive = btn.classList.contains('active');
